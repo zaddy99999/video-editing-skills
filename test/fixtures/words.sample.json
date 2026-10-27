@@ -1,0 +1,16 @@
+{
+  "note": "Hand-written synthetic word timings for testing make-captions / burn / snap-to-words without a speech model. Not a real transcript.",
+  "words": [
+    { "word": "This", "start": 0.20, "end": 0.42 },
+    { "word": "clip", "start": 0.45, "end": 0.80 },
+    { "word": "was", "start": 0.84, "end": 1.00 },
+    { "word": "edited", "start": 1.04, "end": 1.50 },
+    { "word": "by", "start": 1.53, "end": 1.68 },
+    { "word": "an", "start": 1.70, "end": 1.80 },
+    { "word": "agent.", "start": 1.84, "end": 2.30 },
+    { "word": "No", "start": 2.90, "end": 3.10 },
+    { "word": "timeline,", "start": 3.14, "end": 3.70 },
+    { "word": "just", "start": 3.80, "end": 4.00 },
+    { "word": "scripts.", "start": 4.04, "end": 4.70 }
+  ]
+}

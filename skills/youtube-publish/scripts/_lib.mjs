@@ -169,6 +169,7 @@ export function probe(file) {
       fps: ratio(v.avg_frame_rate) || ratio(v.r_frame_rate),
       pixFmt: v.pix_fmt,
       frames: Number(v.nb_frames) || null,
+      duration: Number(v.duration) || null,
     } : null,
     audio: a ? {
       codec: a.codec_name,
