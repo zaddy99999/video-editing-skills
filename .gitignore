@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets: never commit OAuth clients, tokens or env files
+.env
+.env.*
+*credentials*.json
+*client_secret*.json
+*token*.json
+.youtube-token.json
+
+# upload ledgers and run results (they contain your video IDs)
+*ledger*.json
+upload-results*.json
+
+# render outputs
+outputs/
+edit/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.gif
+!test/fixtures/*.mp4
+!docs/*.gif
+
+# misc
+.DS_Store
+*.log

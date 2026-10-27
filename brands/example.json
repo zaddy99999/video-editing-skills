@@ -1,0 +1,42 @@
+{
+  "name": "example",
+  "description": "Neutral starter style pack. Copy to brands/<your-brand>.json and edit. Paths are relative to this file.",
+  "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+  "font": {
+    "family": "Inter,DejaVu Sans,Sans",
+    "weight": "heavy",
+    "file": null,
+    "note": "family is a Pango/fontconfig list: the first installed one wins. To pin a font, download an OFL font (e.g. Inter, Anton, Montserrat from Google Fonts) and set file to its .ttf path, or pass --font-file. Do not commit commercial fonts."
+  },
+  "colors": {
+    "text": "#0b1f3a",
+    "plate": "#ffffff",
+    "plateOpacity": 0.92,
+    "accent": "#ffd400",
+    "outline": "#000000"
+  },
+  "plate": {
+    "width": 760,
+    "top": 150,
+    "radius": 36,
+    "padX": 56,
+    "padY": 40,
+    "maxLines": 2,
+    "targetFill": 0.86,
+    "fontMin": 40,
+    "fontMax": 110,
+    "lineHeight": 1.12,
+    "image": null
+  },
+  "captions": {
+    "fontSize": 78,
+    "marginV": 520,
+    "outline": 6,
+    "shadow": 0,
+    "uppercase": false,
+    "maxWords": 3,
+    "maxChars": 18,
+    "highlightActiveWord": true,
+    "textColor": "#ffffff"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "video-editing-skills",
+  "version": "0.1.0",
+  "description": "Agent skills (Claude Code / Codex) for automated short-form video editing with ffmpeg: auto-cut, hook overlays, captions, audio polish, loops/GIFs/stickers, render QC and YouTube publishing.",
+  "license": "MIT",
+  "author": "William Herring (https://github.com/zaddy99999)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaddy99999/video-editing-skills.git"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "bash test/smoke.sh",
+    "check:lib": "node test/check-lib-sync.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "ffmpeg",
+    "video-editing",
+    "shorts",
+    "captions",
+    "codex"
+  ],
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}

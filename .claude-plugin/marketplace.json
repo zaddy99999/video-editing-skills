@@ -1,0 +1,35 @@
+{
+  "name": "video-editing-skills",
+  "owner": {
+    "name": "William Herring",
+    "url": "https://github.com/zaddy99999"
+  },
+  "metadata": {
+    "description": "Agent skills for automated short-form video editing with ffmpeg: auto-cut, hook overlays, captions, audio polish, loops/GIFs/stickers, render QC and YouTube publishing.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "video-editing-skills",
+      "description": "Eight skills (one router + seven tools) that let Claude Code or Codex cut, caption, polish, QC and publish vertical videos from the terminal.",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "author": { "name": "William Herring", "url": "https://github.com/zaddy99999" },
+      "homepage": "https://github.com/zaddy99999/video-editing-skills",
+      "license": "MIT",
+      "keywords": ["video", "ffmpeg", "shorts", "captions", "youtube", "gif"],
+      "category": "media",
+      "skills": [
+        "./skills/video-editing",
+        "./skills/auto-cut",
+        "./skills/hook-overlay",
+        "./skills/captions",
+        "./skills/audio-polish",
+        "./skills/loops-gifs-stickers",
+        "./skills/render-qc",
+        "./skills/youtube-publish"
+      ]
+    }
+  ]
+}

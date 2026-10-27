@@ -1,0 +1,3 @@
+# Optional: only the captions skill's transcribe.py needs Python packages.
+# The first run downloads a Whisper model from Hugging Face (needs network access).
+faster-whisper>=1.0
